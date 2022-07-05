@@ -3,7 +3,9 @@
 package main
 
 //import packages
-import "fmt"
+import (
+	"fmt"
+)
 
 //func-定义一个函数
 //main-必须包含，是程序的入口函数
@@ -12,4 +14,18 @@ import "fmt"
 func main() {
 	//引用fmt包，引用里面的函数，在末尾自动添加ln（换行）
 	fmt.Println("Hello.")
+	var name string
+	var age int
+	//批量注册变量
+	var (
+		newsletter int
+		c          bool
+	)
+	var d bool = true
+	name = "I'm NiuBi!"
+	age = 64
+	c = false
+	newsletter = 111
+	fmt.Println(name, age, c, newsletter, d)
+
 }
