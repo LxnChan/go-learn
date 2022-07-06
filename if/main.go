@@ -17,4 +17,10 @@ func main() {
 	} else {
 		fmt.Println("666")
 	}
+
+	// if简写
+	var a bool = true
+	if a {
+		fmt.Println("True.")
+	}
 }
